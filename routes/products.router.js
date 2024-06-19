@@ -1,6 +1,8 @@
 import { Router } from "express";
 import products from "../products.json" assert { type: 'json' };
 
+
+
 const router = Router();
 
 const generateId = () => {
