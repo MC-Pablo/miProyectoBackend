@@ -1,0 +1,18 @@
+<header>
+  <h1>Bienvenido a nuestra tienda de tatuajes</h1>
+  <p>Explora nuestra selección de productos y encuentra el mas adecuado para el cuiadado de tu tattoo.</p>
+</header>
+<main>
+  <h2>Productos disponibles:</h2>
+        <ul>
+            {{#each allProducts}}
+                <li>
+                    <strong>{{title}}</strong> - {{description}} (Precio: {{price}})
+                </li>
+            {{/each}}
+        </ul>
+
+</main>
+<footer>
+  <p>&copy; 2024 Tienda de Tatuajes. Todos los derechos reservados.</p>
+</footer>
